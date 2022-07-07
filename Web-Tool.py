@@ -4,14 +4,15 @@ import os
 import socket
 import sys
 from sys import platform
-import requests
 from requests import post
 from src import ping, whois, wordpress, host_ip, ip_info
 
 try:
-    from colorama import Fore
+    import requests
+    import colorama
 except:
     os.system("pip install colorama requests")
+import requests
 from colorama import Fore
 
 def clear():
