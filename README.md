@@ -12,13 +12,15 @@ $ python3 Web-Tool.py
 ```
 
 ## Capabilities
-#### 1- Ping Tool
-#### 2- Server whois
-#### 3- Admin page finder
-#### 4- Wordpress Usernames
-#### 5- Host to IP
-#### 6- IP Information
-#### 7- Subdomain finder
+1- Ping Tool
+2- Server whois
+3- Admin page finder
+4- Wordpress Usernames
+5- Host to IP
+6- IP Information
+7- Subdomain finder
+8- Port Scanner
+9- Cloudflare Bypasser
 
 ## Contact
 - Twitter & Instagram: @C0mmand4r
