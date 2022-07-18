@@ -1,4 +1,4 @@
-# Coded with <3 by C0mmand4r :)
+# Coded with <3 by C0mmand5r :)
 
 import os, time
 from sys import platform
@@ -31,7 +31,7 @@ def banner():
     | |/ |/ / /___/ /_/ /    / / / /_/ / /_/ / /___
     |__/|__/_____/_____/    /_/  \____/\____/_____/
     {Fore.RED}
-            < .:: WEB-TOOLkit by C0mmand4r ::. >
+            < .:: WEB-TOOLkit by C0mmand5r ::. >
     < .:: Github & Instagram & Twitter: c0mmand4r ::. >
 
     {Fore.LIGHTGREEN_EX}
