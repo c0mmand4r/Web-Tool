@@ -6,7 +6,7 @@ Web-Tool is a simple tool for web hacking
 #### Just run script
 #### Requirements will be installed automatically
 ```
-$ git clone https://github.com/c0mmand4r/Web-Tool
+$ git clone https://github.com/c0mmand5r/Web-Tool
 $ cd Web-Tool
 $ python3 Web-Tool.py
 ```
