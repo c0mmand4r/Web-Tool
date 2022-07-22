@@ -11,9 +11,11 @@ Just run script
 Requirements will be installed automatically
 
 ```bash
+# clone from github with git
 $ git clone https://github.com/msfpt/Web-Tool
-$ cd Web-Tool
-$ python3 Web-Tool.py
+
+# run `./Web-Tool/__main__.py` python script
+$ python3 Web-Tool
 ```
 
 ## Capabilities
