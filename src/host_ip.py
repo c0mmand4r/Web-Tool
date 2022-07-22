@@ -1,5 +1,8 @@
-from colorama import Fore
+#!/usr/bin/env python3
+# -*- coding: utf-8 -*-
+
 import socket
+from colorama import Fore
 
 def find():
     try:
@@ -11,4 +14,4 @@ def find():
         print(f"{Fore.WHITE} [ {Fore.RED}**{Fore.WHITE} ] Hostname: " + hostname + " | " + "IP: " + ip)
 
     except:
-        print(f"{Fore.RED} [ ! ] Error: Please check your Internet Connection or Domain")
+        print(f"{Fore.RED}  [!] Error: Please check your Internet Connection or Domain. ")

@@ -1,4 +1,7 @@
-import requests
+#!/usr/bin/env python3
+# -*- coding: utf-8 -*-
+
+from requests import get, ConnectionError
 from colorama import Fore
 
 def scanner():
@@ -13,10 +16,10 @@ def scanner():
         url = f"http://{target}:{port}"
 
         try:
-            requests.get(url)
-        except requests.ConnectionError:
-            #print(f"{Fore.RED} [!]Port {port} is close")
-            pass
+            get(url)
+        except ConnectionError:
+            #print(f"{Fore.RED}  [!] Port {port} is close")
+            ...
 
         else:
             print(f"{Fore.GREEN} [*]Port {port} is open")

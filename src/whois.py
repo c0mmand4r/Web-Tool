@@ -1,5 +1,8 @@
-from colorama import Fore
+#!/usr/bin/env python3
+# -*- coding: utf-8 -*-
+
 import socket
+from colorama import Fore
 
 def whois():
     dm = input(f"{Fore.WHITE} [ {Fore.RED}+{Fore.WHITE} ] Enter your target:: ").lower()

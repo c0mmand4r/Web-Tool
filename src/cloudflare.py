@@ -1,4 +1,7 @@
-import socket, sys
+#!/usr/bin/env python3
+# -*- coding: utf-8 -*-
+
+import socket
 from colorama import Fore
 
 def bypass():
@@ -551,14 +554,11 @@ def bypass():
     url = input(f"{Fore.WHITE} [ {Fore.RED}+{Fore.WHITE} ] Enter Your Target:: ")
 
     if url == "":
-        try:
-            sys.exit()
-        except:
-            return
+        return None
+    
     for sub in subdomain:
         try:
             http = str(sub) + "." + str(url)
             bypass = socket.gethostbyname(str(http))
             print(Fore.GREEN + ' ' + str(bypass) + ' | ' + str(http))
-        except:
-            pass
+        except: ...
